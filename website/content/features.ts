@@ -1,14 +1,12 @@
 import { ComponentProps } from "react";
 import {
-  ArrowsExpandIcon,
-  BeakerIcon,
-  ChipIcon,
-  DatabaseIcon,
-  LightningBoltIcon,
-  CodeIcon,
+  ArrowsPointingOutIcon,
+  CircleStackIcon,
+  BoltIcon,
+  CodeBracketIcon,
   ChartBarIcon,
   KeyIcon,
-} from "@heroicons/react/outline";
+} from "@heroicons/react/24/solid";
 
 export type Feature = {
   name: string;
@@ -35,25 +33,25 @@ const FEATURES: Features = [
   {
     name: "Open source",
     description: `Easily extensible plugin architecture. Contribute to our official plugins or develop your own with CloudQuery SDK.`,
-    Icon: CodeIcon,
+    Icon: CodeBracketIcon,
     page: "all",
   },
   {
     name: "Blazing fast",
     description: `CloudQuery concurrency system utilizes the excellent Go concurrency model with light-weight goroutines.`,
-    Icon: LightningBoltIcon,
+    Icon: BoltIcon,
     page: "all",
   },
   {
     name: "Database agnostic",
     description: `CloudQuery can store your configuration in any supported destination such as database, data lake or streaming platform for further analysis.`,
-    Icon: DatabaseIcon,
+    Icon: CircleStackIcon,
     page: "all",
   },
   {
     name: "Raw access to data",
     description: `Decouple data ingestion and get raw access to your data in structured and unstructured formats.`,
-    Icon: ArrowsExpandIcon,
+    Icon: ArrowsPointingOutIcon,
     page: "all",
   },
 ];

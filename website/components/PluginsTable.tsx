@@ -4,14 +4,14 @@ import { getLatestVersion } from "../utils/versions";
 
 const TableLink = ({ text, href, target = undefined }) => {
   return (
-    <Link href={href}>
-      <a
-        className="nx-text-primary-500 nx-underline nx-decoration-from-font [text-underline-position:under]"
-        target={target}
-      >
-        {text}
-      </a>
-    </Link>
+    (<Link
+      href={href}
+      className="nx-text-primary-500 nx-underline nx-decoration-from-font [text-underline-position:under]"
+      target={target}>
+
+      {text}
+
+    </Link>)
   );
 };
 
