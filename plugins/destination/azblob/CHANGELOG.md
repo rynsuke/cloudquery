@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/cloudquery/cloudquery/compare/plugins-destination-azblob-v1.0.4...plugins-destination-azblob-v1.0.5) (2023-01-20)
+
+
+### Bug Fixes
+
+* **deps:** Update module github.com/Azure/azure-sdk-for-go/sdk/azcore to v1.3.0 ([#6955](https://github.com/cloudquery/cloudquery/issues/6955)) ([66bfdf3](https://github.com/cloudquery/cloudquery/commit/66bfdf30343f6d8fc1b8cac9675631095ebfc01e))
+
 ## [1.0.4](https://github.com/cloudquery/cloudquery/compare/plugins-destination-azblob-v1.0.3...plugins-destination-azblob-v1.0.4) (2023-01-17)
 
 
