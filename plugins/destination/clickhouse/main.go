@@ -17,7 +17,7 @@ func main() {
 			"clickhouse",
 			plugin.Version,
 			client.New,
-			destination.WithDefaultBatchSize(1000),
+			destination.WithDefaultBatchSize(5000),
 		),
 		serve.WithDestinationSentryDSN(sentryDSN),
 	)
