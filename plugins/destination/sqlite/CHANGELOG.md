@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/cloudquery/cloudquery/compare/plugins-destination-sqlite-v1.1.6...plugins-destination-sqlite-v1.2.0) (2023-01-20)
+
+
+### Features
+
+* **sqlite:** Collect and report migration errors before starting the migration ([#6759](https://github.com/cloudquery/cloudquery/issues/6759)) ([a80e9d9](https://github.com/cloudquery/cloudquery/commit/a80e9d9fe23b9cf98d70fe1366f6d76f9f540f3e))
+* **sqlite:** Support force migration ([#6763](https://github.com/cloudquery/cloudquery/issues/6763)) ([19bba77](https://github.com/cloudquery/cloudquery/commit/19bba778420e215deca02856ebe155b6be985219))
+
 ## [1.1.6](https://github.com/cloudquery/cloudquery/compare/plugins-destination-sqlite-v1.1.5...plugins-destination-sqlite-v1.1.6) (2023-01-17)
 
 
