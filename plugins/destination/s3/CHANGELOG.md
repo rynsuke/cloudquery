@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/cloudquery/cloudquery/compare/plugins-destination-s3-v1.0.5...plugins-destination-s3-v1.1.0) (2023-01-20)
+
+
+### Features
+
+* Add support for {{TABLE}} and {{UUID}} placeholders in S3 plugin path ([#6951](https://github.com/cloudquery/cloudquery/issues/6951)) ([4dee50a](https://github.com/cloudquery/cloudquery/commit/4dee50ae128f2290f0bc1aefee9368b2c762642c))
+* **s3:** Automatically discover bucket location ([#6793](https://github.com/cloudquery/cloudquery/issues/6793)) ([1fea90c](https://github.com/cloudquery/cloudquery/commit/1fea90ccaa1441809c025d14c0b0fd178a253455))
+
 ## [1.0.5](https://github.com/cloudquery/cloudquery/compare/plugins-destination-s3-v1.0.4...plugins-destination-s3-v1.0.5) (2023-01-17)
 
 
