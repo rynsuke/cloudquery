@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/cloudquery/cloudquery/compare/plugins-source-alicloud-v1.0.0...plugins-source-alicloud-v1.0.1) (2023-01-20)
+
+
+### Bug Fixes
+
+* **alicloud:** Add Sentry to alicloud ([#6962](https://github.com/cloudquery/cloudquery/issues/6962)) ([74ee97b](https://github.com/cloudquery/cloudquery/commit/74ee97be651fc255ab61385878ccfa2ddb367c5e))
+
 ## 1.0.0 (2023-01-18)
 
 
